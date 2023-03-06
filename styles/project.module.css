@@ -1,0 +1,24 @@
+.mainPage {
+  background-color: #00152a;
+  margin-top: 8%;
+  height: 93.5%;
+  margin-top: 3%;
+}
+.accordion {
+  width: 80%;
+  margin: auto;
+}
+.accordionItems {
+  background-color: #BCCEF8;
+}
+.projectTitle {
+  padding: 1%;
+  color: #a587ff;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  font-family: Georgia, serif;
+}
+.projectText {
+  margin-left: 1%;
+}

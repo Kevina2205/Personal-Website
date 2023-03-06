@@ -1,0 +1,40 @@
+.contactPage {
+  margin-top: 8%;
+  height: 93.5%;
+  margin-top: 3%;
+  text-align: center;
+  background-image: url("/sky.jpg");
+  background-size: cover;
+}
+.contactTitle {
+  height: 35%;
+  color: #e48779;
+  padding-top: 2%;
+  font-family: 'Times New Roman', serif;
+  
+}
+.boxes {
+  margin-right: 10%;
+  color: #7f94cd;
+}
+.github {
+  width: 1000px
+}
+.box {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  padding: 0% 5% 1% 5%;
+  align-items: center;
+}
+.details {
+  text-align: right;
+}
+.link {
+  text-decoration: none;
+  padding-right: 1%;
+  color: #FFFBE9;
+}
+.link:hover {
+  color: #D989B5;
+}

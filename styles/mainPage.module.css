@@ -1,0 +1,37 @@
+.landingpage {
+  margin-top: 8%;
+  height: 93.5%;
+  margin-top: 3%;
+  background-color: #00152a;
+}
+.main {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  margin-right: 10%;
+}
+.imageContent {
+  text-align: right;
+  width: 80%;
+  align-items: end;
+}
+.image {
+  width: 50%;
+}
+.navbar {
+  background-color: #2d2062;
+  margin: 0;
+  height: 8%;
+  position: fixed;
+  width: 100%;
+  font-family: 'Courier New', monospace;
+}
+.mainText {
+  font-size: 3.7rem;
+  color: #C147E9;
+  width: 50%;
+  text-align: left;
+  padding-left: 10%;
+  text-shadow: 3px 3px #63167c;
+}

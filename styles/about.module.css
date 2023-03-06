@@ -1,0 +1,66 @@
+.landingpage {
+  height: 180%;
+  background-image: linear-gradient(#00152a, #53498a);
+}
+.main {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  height: 55%;
+  margin-top: 3%;
+}
+.textContent {
+  width: 50%;
+  text-align: left;
+  padding-right: 15%;
+}
+.name {
+  color: #e8a1ff;
+}
+.resumeSummary {
+  color: #ead0f2;
+  text-align: justify;
+}
+.imageContent {
+  width: 50%;
+  align-items: center;
+}
+.image {
+  width: 50%;
+  border-radius: 40%;
+}
+.programmingTitle {
+  text-align: center;
+}
+.programmingLanguage {
+  color: #ead0f2;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.programmingLogo {
+  height: 200px;
+  border-top-left-radius: 20%;
+  border-bottom-right-radius: 20%;
+}
+.proglogo1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.proglogo2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.sokrates {
+  display: flex;
+  align-items: center;
+}
+.sokratesDesc {
+  margin-right: 10%;
+  text-align: justify;
+}
