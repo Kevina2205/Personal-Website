@@ -26,6 +26,7 @@
   position: fixed;
   width: 100%;
   font-family: 'Courier New', monospace;
+  z-index: 100;
 }
 .mainText {
   font-size: 3.7rem;
