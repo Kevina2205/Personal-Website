@@ -9,7 +9,7 @@ export default function LandingPage() {
           <div className={styles.imageContent}>
             <picture>
               <source srcSet="/astronauts.jpg" />
-              <img className={styles.image} src="/astronauts.jpg" alt='astronaut image'/>
+              <img className={styles.astro} src="/astronauts.jpg" alt='astronaut image'/>
             </picture>
             
           </div>

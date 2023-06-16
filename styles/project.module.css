@@ -1,17 +1,17 @@
 .mainPage {
   background-color: #00152a;
-  margin-top: 8%;
-  height: 100vh;
-  margin-top: 3%;
+  height: auto;
 }
 .accordion {
   width: 80%;
   margin: auto;
+  padding-bottom: 5%;
 }
 .accordionItems {
   background-color: #BCCEF8;
 }
 .projectTitle {
+  margin-top: 5%;
   padding: 1%;
   color: #a587ff;
   justify-content: center;
@@ -21,4 +21,13 @@
 }
 .projectText {
   margin-left: 1%;
+}
+
+@media screen and (max-width: 900px) {
+  .projectTitle {
+    margin-top: 10%;
+  }
+  .accordion {
+    padding-bottom: 15%;
+  }
 }
