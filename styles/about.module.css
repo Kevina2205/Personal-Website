@@ -1,6 +1,6 @@
 .landingpage {
-  height: 180%;
-  background-image: linear-gradient(#00152a, #53498a);
+  height: auto;
+  background-color: rgb(195, 195, 195);
 }
 .main {
   text-align: center;
@@ -8,6 +8,7 @@
   align-items: center;
   height: 55%;
   margin-top: 3%;
+  padding: 10% 5%;
 }
 .textContent {
   width: 50%;
@@ -15,10 +16,10 @@
   padding-right: 15%;
 }
 .name {
-  color: #e8a1ff;
+  color: #2d2062;
 }
 .resumeSummary {
-  color: #ead0f2;
+  color: #63167c;
   text-align: justify;
 }
 .imageContent {
@@ -28,12 +29,13 @@
 .image {
   width: 50%;
   border-radius: 40%;
+  margin: 5%;
 }
 .programmingTitle {
   text-align: center;
 }
 .programmingLanguage {
-  color: #ead0f2;
+  color: #2d2062;
   margin-left: 10%;
   margin-right: 10%;
 }
@@ -41,6 +43,7 @@
   height: 200px;
   border-top-left-radius: 20%;
   border-bottom-right-radius: 20%;
+  padding-bottom: 20%;
 }
 .proglogo1 {
   display: flex;
@@ -59,8 +62,45 @@
 .sokrates {
   display: flex;
   align-items: center;
+  margin-bottom: 5%;
 }
 .sokratesDesc {
   margin-right: 10%;
   text-align: justify;
+}
+.listLang {
+  display: none;
+}
+
+@media screen and (max-width: 900px) {
+  .landingpage {
+    height: auto;
+    background-color: rgb(195, 195, 195);
+  }
+  .main {
+    flex-direction: column;
+    margin-left: 5%;
+  }
+  .imageContent {
+    width: 100%;
+  }
+  .textContent {
+    width: 100%;
+  }
+  .sokrates {
+    flex-direction: column;
+  }
+  .sokratesLogo {
+    display: none;
+  }
+  .proglogo1 {
+    display: none;
+  }
+  .proglogo2 {
+    display: none;
+  }
+  .listLang {
+    display: contents;
+    text-align: center;
+  }
 }

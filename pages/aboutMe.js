@@ -8,8 +8,8 @@ export default function AboutMe() {
         <div className={styles.main}>
         <div className={styles.imageContent}>
             <picture>
-              <source srcSet="/vina.jpg" />
-              <img className={styles.image} src="/vina.jpg" alt='astronaut image'/>
+              <source srcSet="/vins.jpg" />
+              <img className={styles.image} src="/vin.jpg" alt='kevina'/>
             </picture>
           </div>
 
@@ -25,16 +25,23 @@ export default function AboutMe() {
             <div className={styles.sokratesDesc}>
               <h3>Experience</h3>
               <h5>Associate Member of IT Division Bina Nusantara</h5>
-              <p>Designed, developed, and maintained front-end and back-end applications utilizing Angular JS, PostgreSQL, and Dynamo DB. Moreover, I collaborated with my Sokrates Team which are part of BINUS Creates. I also helped evolve front-end and back-end stacks.</p>
+              <p>As a Full Stack Developer at Sokrates, I leverage my expertise in Angular, PostgreSQL, and backend development to deliver innovative solutions and enhance user experiences. Working with cross-functional teams, I design and develop user-friendly frontend interfaces and create scalable applications using Lambda API on AWS. With experience across various domains, including finance, extracurricular activities, library management, and attendance tracking, I have gained proficiency in technologies such as Angular, PostgreSQL, JavaScript, DynamoDB, Serverless, and Luckysheet. As a proactive team player, I prioritize collaboration and stay updated on the latest technologies to ensure our solutions meet our clients' evolving needs.</p>
             </div>
-            <a href='https://sokrates.id/'><Image src="/sokrates.png" width={300} height={100} alt='sokrates logo'/></a>
+            <a className={styles.sokratesLogo} href='https://sokrates.id/'><Image src="/sokrates.png" width={300} height={100} alt='sokrates logo'/></a>
           </div>
-          <br/>
-          <br/>
-          <br/>
+         
+         
           <h3 className={styles.programmingTitle}>Programming Language</h3>
           <br/>
+
           <div className={styles.programmingLogo}>
+           
+           <div className={styles.listLang}>
+            <p>Python - R - Tableau</p>
+            <p>Front-End - Angular - Next</p>
+            <p>DynamoDB - PostgreSQL - SQL</p>
+           </div>
+            
             <div className={styles.proglogo1}>
               <Image src="/python.png" width={200} height={100} alt='python logo'/>
               <Image src="/r.png" width={70} height={50} alt='r logo'/>
@@ -49,6 +56,7 @@ export default function AboutMe() {
               <Image src="/sql.png" width={100} height={50} alt='sql logo'/>
             </div>
           </div>
+
         </div>
 
       </div>
